@@ -27,6 +27,25 @@ public class Operadores {
 		// MODULO
 		c = b % a;
 		System.out.println("El Modulo es :" + c);
+		
+		// Asignacion
+		c = 2;
+		a = 4;
+		
+		c += a;
+		System.out.println("C vale = " + c);
+		
+		c -= a;
+		System.out.println("C vale = " + c);
+		
+		c *= a;
+		System.out.println("C vale = " + c);
+		
+		c /= a;
+		System.out.println("C vale = " + c);
+		
+		c %= a;
+		System.out.println("C vale = " + c);		
 
 	}
 
