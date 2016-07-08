@@ -45,7 +45,23 @@ public class Operadores {
 		System.out.println("C vale = " + c);
 		
 		c %= a;
-		System.out.println("C vale = " + c);		
+		System.out.println("C vale = " + c);
+		
+		// PREFIJOS
+		int i = 7;
+		int j = 5;
+		++i;
+		--j;
+		System.out.println(i);
+		System.out.println(j);
+		
+		// POSTFIJOS
+		int k = 7;
+		int l = 5;
+		k++;
+		l--;
+		System.out.println(k);
+		System.out.println(l);
 
 	}
 
