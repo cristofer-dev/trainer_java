@@ -63,6 +63,15 @@ public class Operadores {
 		System.out.println(k);
 		System.out.println(l);
 
+		// Operadores de Comparación
+		// == Igual que
+		// != Distinto que
+		// >  Mayor que
+		// >= Mayor o igual que
+		// <  Menor que
+		// <= Menor o igual que
+		
+		
 	}
 
 }
