@@ -71,6 +71,11 @@ public class Operadores {
 		// <  Menor que
 		// <= Menor o igual que
 		
+		// Operadores Logicos
+		//  && 	and
+		//  || 	or
+		//  ! 	not
+		
 		
 	}
 
