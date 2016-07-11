@@ -1,14 +1,15 @@
 #Trainer JAVA
 Apuntes Basicos de JAVA:
 
-## Elementos Básicos
+## Semana 1
+### Elementos Básicos
 - 101 Hola Mundo
 - 102 Tipos de Datos
 - 103 Named y cast
 - 104 Arrays
 - 105 Operadores
 
-## Estructuras de Control
+### Estructuras de Control
 - 106 Condicionales
   - if
   - else
