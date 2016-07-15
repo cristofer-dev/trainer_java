@@ -23,3 +23,8 @@ Apuntes Basicos de JAVA:
 ## Semana 2
 ### POO
 - 108 Clases
+  - Declaracion de Objeto
+    - Propiedades
+    - Metodos
+  - Instancia del Objeot
+  - Llamado al metodos
