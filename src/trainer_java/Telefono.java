@@ -11,7 +11,13 @@ public class Telefono {
 		this.marca = "ND";
 		this.modelo = "ND";
 		this.precio = 0.0;
-				
+	}
+	
+	public Telefono(String marca, String modelo, double precio ){
+		this.id = 0;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.precio = precio;
 	}
 	
 	public void mostrarDatos(){
