@@ -9,6 +9,10 @@ public class A108_Clases {
 		miTelefono.modelo = "K1";
 		miTelefono.precio = 678.98;
 		miTelefono.mostrarDatos();
+		
+		System.out.println("Creando un Nuevo Objeto telefono");
+		Telefono Telefono2 = new Telefono();
+		Telefono2.mostrarDatos();
 	}
 
 }
