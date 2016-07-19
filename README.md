@@ -23,8 +23,10 @@ Apuntes Basicos de JAVA:
 ## Semana 2
 ### POO
 - 108 Clases
-  - Declaracion de Objeto
+  - Declaracion de Objeto (Telefono.java)
     - Propiedades
     - Metodos
   - Instancia del Objeot
   - Llamado al metodos
+  - Sobreescritura de Constructor (Obj Telefono)
+  - Sobrecarga (overload) de metodos (Constructor Obj Telefono)
