@@ -17,6 +17,7 @@ public class A108_Clases {
 		System.out.println("Creando un Nuevo Objeto telefono");
 		System.out.println("Pasando parametros al constructor");
 		Telefono Telefono3 = new Telefono("Apple", "5s",562.36);
+		Telefono3.setId(5555);
 		Telefono3.mostrarDatos();
 	}
 
