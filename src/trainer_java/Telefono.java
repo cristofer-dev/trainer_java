@@ -1,7 +1,7 @@
 package trainer_java;
 
 public class Telefono {
-	int id;
+	private int id;
 	String marca;
 	String modelo;
 	double precio;
