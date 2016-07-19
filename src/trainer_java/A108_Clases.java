@@ -19,6 +19,9 @@ public class A108_Clases {
 		Telefono Telefono3 = new Telefono("Apple", "5s",562.36);
 		Telefono3.setId(5555);
 		Telefono3.mostrarDatos();
+		
+		Playera MiPlayera = new Playera();
+		MiPlayera.mostrarDatos();
 	}
 
 }
