@@ -6,6 +6,13 @@ public class Ropa {
 	private String talla;
 	private String color;
 	
+	public Ropa(String id, double precio, String talla, String color){
+		this.id = id;
+		this.precio = precio;
+		this.talla = talla;
+		this.color = color;
+	}
+	
 	public String getId() {
 		return id;
 	}

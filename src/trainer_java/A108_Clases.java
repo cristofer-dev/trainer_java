@@ -20,11 +20,11 @@ public class A108_Clases {
 		Telefono3.setId(5555);
 		Telefono3.mostrarDatos();
 		
-		Playera MiPlayera = new Playera();
-		MiPlayera.mostrarDatos("Playera");
+		Playera MiPlayera = new Playera("A562",562.36,"M", "Blue", "Recto");
+		MiPlayera.mostrarDatos("---Playera");
 		
-		Jeans MiJeans = new Jeans();
-		MiJeans.mostrarDatos("Jeans");
+		Jeans MiJeans = new Jeans("F562",800.99,"XL","Orange","RECTO",'F');
+		MiJeans.mostrarDatos("---Jeans");
 	}
 
 }

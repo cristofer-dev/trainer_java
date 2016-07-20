@@ -5,6 +5,13 @@ public class Jeans extends Ropa {
 	private String corte;
 	private char genero;
 	
+	public Jeans(String id, double precio, String talla, 
+				 String color, String corte, char genero) {
+		super(id, precio, talla, color);
+		this.corte = corte;
+		this.genero = genero;
+	}
+	
 	public String getCorte() {
 		return corte;
 	}
