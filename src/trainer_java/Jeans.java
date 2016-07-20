@@ -1,11 +1,12 @@
 package trainer_java;
 
-public class Playera {
-	private String id;
+public class Jeans {
+	private	String id;
 	private double precio;
 	private String talla;
 	private String color;
 	private String corte;
+	private char genero;
 	
 	public String getId() {
 		return id;
@@ -37,14 +38,22 @@ public class Playera {
 	public void setCorte(String corte) {
 		this.corte = corte;
 	}
+	public char getGenero() {
+		return genero;
+	}
+	public void setGenero(char genero) {
+		this.genero = genero;
+	}
 	
 	public void mostrarDatos(){
-		System.out.println("Playera");
+		System.out.println("Jeans");
 		System.out.println("ID : " + id);
 		System.out.println("Precio : " + precio);
 		System.out.println("Talla : " + talla);
 		System.out.println("Color : " + color);
 		System.out.println("Corte : " + corte);
+		System.out.println("Genero : " + genero);
 	}
+	
 
 }

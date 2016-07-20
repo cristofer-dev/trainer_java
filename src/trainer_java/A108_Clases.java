@@ -22,6 +22,9 @@ public class A108_Clases {
 		
 		Playera MiPlayera = new Playera();
 		MiPlayera.mostrarDatos();
+		
+		Jeans MiJeans = new Jeans();
+		MiJeans.mostrarDatos();
 	}
 
 }
