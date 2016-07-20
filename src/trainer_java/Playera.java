@@ -16,5 +16,13 @@ public class Playera extends Ropa {
 	public void setCorte(String corte) {
 		this.corte = corte;
 	}
+	
+	@Override
+	public void mostrarDatos(String nombreClase) {
+		super.mostrarDatos(nombreClase);
+		System.out.println("Corte : " + corte);	
+	}
+	
+	
 
 }

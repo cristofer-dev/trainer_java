@@ -24,6 +24,13 @@ public class Jeans extends Ropa {
 	public void setGenero(char genero) {
 		this.genero = genero;
 	}
+
+	@Override
+	public void mostrarDatos(String nombreClase) { 
+		super.mostrarDatos(nombreClase);
+		System.out.println("Corte : " + corte);
+		System.out.println("Genero : " + genero);
+	}
 	
 
 	
