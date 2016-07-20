@@ -1,6 +1,6 @@
 package trainer_java;
 
-public class SmartPhone extends Telefono {
+public class SmartPhone extends Telefono implements IDevolucion {
 
 	private String sim;
 	
@@ -17,9 +17,9 @@ public class SmartPhone extends Telefono {
 	public void setSim(String sim) {
 		this.sim = sim;
 	}
-	
-	
-	
-	
 
+	@Override
+	public void hacerDevolucion() {
+		System.out.println("Devolucion de un SmartPhone");		
+	}
 }

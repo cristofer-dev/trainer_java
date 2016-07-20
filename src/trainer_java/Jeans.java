@@ -1,6 +1,6 @@
 package trainer_java;
 
-public class Jeans extends Ropa {
+public class Jeans extends Ropa implements IDevolucion {
 
 	private String corte;
 	private char genero;
@@ -31,8 +31,9 @@ public class Jeans extends Ropa {
 		System.out.println("Corte : " + corte);
 		System.out.println("Genero : " + genero);
 	}
-	
 
-	
-
+	@Override
+	public void hacerDevolucion() {
+		System.out.println("Devolucion de un Jeans");
+	}
 }
