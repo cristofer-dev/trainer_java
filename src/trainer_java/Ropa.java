@@ -5,6 +5,7 @@ public class Ropa {
 	private double precio;
 	private String talla;
 	private String color;
+	
 	public String getId() {
 		return id;
 	}

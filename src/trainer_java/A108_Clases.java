@@ -21,10 +21,10 @@ public class A108_Clases {
 		Telefono3.mostrarDatos();
 		
 		Playera MiPlayera = new Playera();
-		MiPlayera.mostrarDatos();
+		MiPlayera.mostrarDatos("Playera");
 		
 		Jeans MiJeans = new Jeans();
-		MiJeans.mostrarDatos();
+		MiJeans.mostrarDatos("Jeans");
 	}
 
 }
